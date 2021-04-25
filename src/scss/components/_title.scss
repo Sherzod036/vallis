@@ -1,0 +1,25 @@
+.title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 3.6rem;
+  color: $primary;
+  margin-bottom: 40px;
+
+  &::before,
+  &::after {
+    content: '';
+    display: block;
+    width: 92px;
+    height: 3px;
+    background: $secondary;
+  }
+
+  &::before {
+    margin-right: 30px;
+  }
+  &::after {
+    margin-left: 30px;
+  }
+}

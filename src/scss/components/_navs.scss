@@ -1,0 +1,42 @@
+.header__nav {
+  & .list {
+    display: flex;
+    align-items: center;
+    &__item {
+      margin-right: 40px;
+
+      &:last-child {
+        margin-right: 0;
+      }
+    }
+    &__link {
+      font-weight: 700;
+      transition: 0.3s;
+      &:hover {
+        color: $secondary;
+      }
+    }
+  }
+}
+
+.header--bot__nav {
+  & .list {
+    display: flex;
+    align-items: center;
+    &__item {
+      margin-right: 40px;
+
+      &:last-child {
+        margin-right: 0;
+      }
+    }
+    &__link {
+      font-weight: 700;
+      color: #fff;
+      transition: 0.3s;
+      &:hover {
+        color: $secondary;
+      }
+    }
+  }
+}

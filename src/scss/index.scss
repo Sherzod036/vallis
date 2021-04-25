@@ -3,7 +3,12 @@
 @import 'core/base';
 @import 'core/libs';
 
+@import 'components/navs';
+@import 'components/title';
+@import 'components/product';
+
 @import 'layouts/header';
+@import 'layouts/category';
 @import 'layouts/footer';
 
 @import 'adaptive/xxl';
