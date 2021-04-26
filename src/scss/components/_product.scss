@@ -10,6 +10,26 @@
   overflow: hidden;
   margin-bottom: 40px;
 
+  &__wave {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 105px;
+  }
+
+  &__sticker {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background: #34cb55;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 1.4rem;
+    font-weight: 500;
+    padding: 5px 14px;
+    transition: 0.3s;
+  }
+
   &::after {
     content: '+';
     position: absolute;
@@ -44,6 +64,10 @@
       opacity: 1;
       visibility: visible;
     }
+    & .product__sticker {
+      opacity: 0;
+      visibility: hidden;
+    }
     &::before {
       opacity: 1;
       visibility: visible;
@@ -55,7 +79,7 @@
   }
   &__content {
     position: absolute;
-    bottom: -146px;
+    bottom: -106px;
     z-index: 2;
     opacity: 0;
     visibility: hidden;
@@ -63,10 +87,16 @@
     display: block;
     width: 100%;
     height: 106px;
-    padding: 35px 20px;
     transition: 0.5s;
   }
+  &__inner {
+    width: 100%;
+    position: absolute;
+    bottom: 15px;
+    padding: 0 20px;
+  }
   &__title {
+    position: relative;
     font-weight: 700;
     font-size: 1.8rem;
     color: #fff;
@@ -74,6 +104,7 @@
     margin-bottom: 12px;
   }
   &__bot-content {
+    position: relative;
     display: flex;
     align-items: center;
     justify-content: space-between;

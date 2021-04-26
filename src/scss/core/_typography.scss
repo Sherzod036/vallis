@@ -9,6 +9,15 @@
 
 @font-face {
   font-family: 'Helvetica';
+  src: url('../fonts/Helvetica/helveticaneuecyr-medium.woff2') format('woff2'),
+    url('../fonts/Helvetica/helveticaneuecyr-medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Helvetica';
   src: url('../fonts/Helvetica/helveticaneuecyr-bold.woff2') format('woff2'),
     url('../fonts/Helvetica/helveticaneuecyr-bold.woff') format('woff');
   font-weight: 700;

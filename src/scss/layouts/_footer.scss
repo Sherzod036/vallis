@@ -1,0 +1,77 @@
+.footer {
+  padding: 35px 0;
+  width: 100%;
+  background-color: $primary;
+  &__wave {
+    margin-bottom: -3px;
+  }
+  &__blocks {
+    margin-bottom: 50px;
+  }
+
+  &__title {
+    display: block;
+    font-weight: 700;
+    color: #fff;
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+
+  & nav .list__item {
+    margin-bottom: 10px;
+    text-align: center;
+  }
+
+  & nav .list__link {
+    color: #fff;
+    font-weight: 500;
+    line-height: 2.5rem;
+    transition: 0.3s;
+    &:hover {
+      color: $secondary;
+    }
+  }
+
+  &__logo {
+    display: block;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+
+  &__subscribe {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    & a {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 38px;
+      height: 38px;
+      border-radius: 50%;
+      border: 1px solid #5273b3;
+      color: #fff;
+      font-size: 1.7rem;
+      margin-right: 14px;
+      transition: 0.3s;
+      &:last-child {
+        margin-right: 0;
+      }
+
+      &:hover {
+        color: $secondary;
+        border: 1px solid $secondary;
+      }
+    }
+  }
+}
+
+.copy {
+  display: block;
+  font-weight: 500;
+  color: #fff;
+  text-align: center;
+  margin-bottom: 25px;
+}

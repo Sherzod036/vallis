@@ -13,10 +13,7 @@ function clear() {
 }
 
 function bmcss() {
-  return src([
-    'node_modules/bootstrap/dist/css/bootstrap-grid.css',
-    'node_modules/aos/dist/aos.css',
-  ])
+  return src(['node_modules/bootstrap/dist/css/bootstrap-grid.css'])
     .pipe(concat('bundle.min.css'))
     .pipe(csso({ comments: false }))
     .pipe(dest('build/css'))
@@ -39,7 +36,11 @@ function styles() {
 }
 
 function bmjs() {
-  return src(['node_modules/aos/dist/aos.js'])
+  return src([
+    'node_modules/gsap/dist/gsap.js',
+    'node_modules/wavify/wavify.js',
+    'node_modules/wavify/jquery.wavify.js',
+  ])
     .pipe(concat('bundle.min.js'))
     .pipe(uglify())
     .pipe(dest('build/js'))
