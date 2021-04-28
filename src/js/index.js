@@ -8,11 +8,11 @@ $(function () {
     container: '.product__content',
   })
 
-  $('#footerWaveID').wavify({
+  $('.footer-wave').wavify({
     height: 70,
     bones: 5,
-    amplitude: 40,
+    amplitude: 30,
     color: '#18449A',
-    speed: 0.25,
+    speed: 0.15,
   })
 })
