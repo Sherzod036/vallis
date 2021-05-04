@@ -13,7 +13,10 @@ function clear() {
 }
 
 function bmcss() {
-  return src(['node_modules/bootstrap/dist/css/bootstrap-grid.css'])
+  return src([
+    'node_modules/bootstrap/dist/css/bootstrap-grid.css',
+    'node_modules/owl.carousel/dist/assets/owl.carousel.css',
+  ])
     .pipe(concat('bundle.min.css'))
     .pipe(csso({ comments: false }))
     .pipe(dest('build/css'))
@@ -40,6 +43,7 @@ function bmjs() {
     'node_modules/gsap/dist/gsap.js',
     'node_modules/wavify/wavify.js',
     'node_modules/wavify/jquery.wavify.js',
+    'node_modules/owl.carousel/dist/owl.carousel.js',
   ])
     .pipe(concat('bundle.min.js'))
     .pipe(uglify())

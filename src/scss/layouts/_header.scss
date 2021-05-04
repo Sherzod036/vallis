@@ -49,34 +49,7 @@
     &__items {
       display: flex;
       align-items: center;
-      justify-content: space-between;
-    }
-    &__hamb {
-      display: block;
-      &:hover span {
-        background: $secondary;
-      }
-      & span {
-        display: block;
-        width: 40px;
-        height: 4px;
-        background: #fff;
-        border-radius: 15px;
-        margin-bottom: 7px;
-        transition: 0.3s;
-        &:last-child {
-          margin-bottom: 0;
-        }
-      }
-    }
-    &__search {
-      display: block;
-      color: #fff;
-      font-size: 2.5rem;
-      transition: 0.3s;
-      &:hover {
-        color: $secondary;
-      }
+      justify-content: center;
     }
   }
 }

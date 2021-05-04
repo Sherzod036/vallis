@@ -1,0 +1,17 @@
+.page-partners__slider .owl-stage-outer {
+  overflow: visible;
+}
+
+.page-partners__slider .owl-next {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
+}
+
+.page-partners__slider .owl-prev {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+}

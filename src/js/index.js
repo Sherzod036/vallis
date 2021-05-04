@@ -1,4 +1,25 @@
 $(function () {
+  const partnersBtns = [
+    '<img class="slider_l" src="../img/slider_l.svg" />',
+    '<img class="slider_r" src="../img/slider_r.svg" />',
+  ]
+
+  $('.page-partners__slider').owlCarousel({
+    items: 2,
+    margin: 20,
+    nav: true,
+    navText: partnersBtns,
+    smartSpeed: 800,
+  })
+
+  const partnersButton = $('.page-partners__button')
+  partnersButton.on('click', (e) => {
+    e.preventDefault()
+    partnersButton.addClass('page-partners__button--active')
+
+    $('.page-partners__tooltip').addClass('page-partners__tooltip--active')
+  })
+
   $('.product-wave').wavify({
     height: 10,
     bones: 3,
