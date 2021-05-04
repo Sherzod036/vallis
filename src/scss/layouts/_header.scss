@@ -14,6 +14,9 @@
       color: $secondary;
     }
   }
+  &__mid-block {
+    flex: 0 0 206px;
+  }
   &__call {
     font-weight: 700;
     display: flex;

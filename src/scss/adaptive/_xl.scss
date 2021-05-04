@@ -1,2 +1,22 @@
 @media (max-width: 1200px) {
+  .header__nav .list__item {
+    margin-right: 20px;
+  }
+  .header--bot__nav .list__item {
+    margin-right: 25px;
+  }
+  .header__subscribe a {
+    margin-right: 15px;
+  }
+  .page-partners__benefit {
+    margin-bottom: 30px;
+  }
+  .page-partners__stock-title {
+    font-size: 2.5rem;
+    margin-bottom: 15px;
+  }
+  .page-partners__stock-pic {
+    height: 350px;
+    margin-bottom: 20px;
+  }
 }

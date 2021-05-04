@@ -1,2 +1,29 @@
-@media (max-width: 992) {
+@media (max-width: 992px) {
+  .header {
+    padding: 15px 0;
+  }
+  .header__left-block {
+    display: none;
+  }
+  .header__mid-block {
+    order: 1;
+    flex: 0 0 145px;
+  }
+  .header__right-block {
+    order: 3;
+  }
+  .header__nav {
+    margin-bottom: 15px;
+  }
+  .section {
+    margin-bottom: 50px;
+  }
+  .title {
+    margin-bottom: 25px;
+  }
+  .page-partners__desc,
+  .page-partners__stock-desc,
+  .page-partners__conditions-desc {
+    line-height: 2.5rem;
+  }
 }

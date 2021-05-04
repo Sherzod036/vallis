@@ -1,15 +1,28 @@
 $(function () {
+  const hamb = $('.hamburger')
+  hamb.on('click', () => {
+    hamb.toggleClass('is-active')
+    $('.header__right-block').slideToggle().toggleClass('d-block')
+  })
+
   const partnersBtns = [
     '<img class="slider_l" src="../img/slider_l.svg" />',
     '<img class="slider_r" src="../img/slider_r.svg" />',
   ]
 
   $('.page-partners__slider').owlCarousel({
-    items: 2,
     margin: 20,
     nav: true,
     navText: partnersBtns,
     smartSpeed: 800,
+    responsive: {
+      0: {
+        items: 1,
+      },
+      992: {
+        items: 2,
+      },
+    },
   })
 
   const partnersButton = $('.page-partners__button')

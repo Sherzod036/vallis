@@ -1,2 +1,19 @@
 @media (max-width: 768px) {
+  .header--bot__nav .list {
+    flex-direction: column;
+  }
+  .header--bot__nav .list__item {
+    margin-bottom: 15px;
+    margin-right: 0;
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+  .title::before,
+  .title::after {
+    display: none;
+  }
+  .title {
+    font-size: 3rem;
+  }
 }

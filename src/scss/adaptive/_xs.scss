@@ -1,2 +1,32 @@
-@media (max-width: 500) {
+@media (max-width: 500px) {
+  .hamburger {
+    display: block;
+  }
+  .header__items {
+    flex-wrap: wrap;
+  }
+  .header__right-block {
+    width: 100%;
+    display: none;
+  }
+  .header__nav .list {
+    flex-wrap: wrap;
+    margin-top: 20px;
+  }
+  .header__nav .list__item {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 10px;
+    margin-right: 0;
+  }
+  .header__subscribe {
+    display: flex;
+    justify-content: center;
+  }
+  .page-partners__stock-pic {
+    height: 250px;
+  }
+  .page-partners__slider-item {
+    height: 250px;
+  }
 }
