@@ -1,2 +1,34 @@
 @media (max-width: 576px) {
+  .page-contacts__sale-icon {
+    width: 50px;
+    height: 50px;
+    flex: 0 0 50px;
+  }
+  .page-contacts__map {
+    height: 250px;
+  }
+  .th {
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 0;
+    & .td {
+      text-align: center;
+      padding: 5px 0;
+    }
+  }
+  .tr {
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 0;
+    & .td {
+      text-align: center;
+      padding: 5px 0;
+      &.id {
+        width: 100%;
+      }
+      &.txt {
+        width: 100%;
+      }
+    }
+  }
 }

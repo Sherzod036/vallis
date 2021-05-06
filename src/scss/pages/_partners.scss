@@ -60,20 +60,6 @@
       color: #000;
     }
   }
-  &__conditions {
-    &-desc {
-      line-height: 2.9rem;
-      text-align: justify;
-    }
-    &-list {
-      padding-left: 35px;
-      margin-bottom: 60px;
-      & li {
-        line-height: 2.9rem;
-        list-style: disc;
-      }
-    }
-  }
   &__inner {
     position: relative;
     display: flex;
@@ -123,6 +109,21 @@
     }
     &--active {
       background: $primary;
+    }
+  }
+}
+
+.conditions {
+  &__desc {
+    line-height: 2.9rem;
+    text-align: justify;
+  }
+  &__list {
+    padding-left: 35px;
+    margin-bottom: 60px;
+    & li {
+      line-height: 2.9rem;
+      list-style: disc;
     }
   }
 }

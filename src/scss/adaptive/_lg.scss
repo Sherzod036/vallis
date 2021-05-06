@@ -23,7 +23,68 @@
   }
   .page-partners__desc,
   .page-partners__stock-desc,
-  .page-partners__conditions-desc {
+  .page-partners__conditions-desc,
+  .page-about__desc,
+  .conditions__desc {
     line-height: 2.5rem;
+  }
+  .footer .nav {
+    margin-bottom: 35px;
+  }
+  .footer__contacts.nav {
+    margin-bottom: 0;
+  }
+  .footer__title {
+    margin-bottom: 15px;
+  }
+  .footer nav .list__item {
+    margin-bottom: 5px;
+  }
+  .page-about__pic {
+    margin-bottom: 35px;
+  }
+  .contact:last-child {
+    margin-bottom: 25px;
+  }
+  .page-contacts__sale {
+    margin-bottom: 25px;
+  }
+  .page-dealers__table {
+    margin-bottom: 60px;
+  }
+  .page-dealers__bg {
+    height: 500px;
+  }
+  .service {
+    margin-bottom: 35px;
+  }
+  .service__poster {
+    margin-bottom: 35px;
+  }
+  .single-page__back {
+    margin-bottom: 20px;
+  }
+  .single-page__title {
+    margin-bottom: 20px;
+  }
+  .single-page__mainpic {
+    height: 450px;
+    margin-bottom: 25px;
+  }
+  .single-page__form {
+    padding: 25px 15px;
+  }
+  .single-page__form-title,
+  .single-page__form-desc {
+    text-align: center;
+  }
+  .single-page__form-inputs {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .single-page__form-inputs input {
+    margin-right: 0;
+    margin-bottom: 15px;
   }
 }

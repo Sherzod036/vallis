@@ -16,4 +16,38 @@
   .title {
     font-size: 3rem;
   }
+  .footer__wave {
+    display: none;
+  }
+  .footer {
+    margin-top: 50px;
+  }
+  .faq {
+    padding: 15px 18px;
+  }
+  .faq__icon {
+    top: 15px;
+    right: 18px;
+    font-size: 1.3rem;
+  }
+  .faq__title {
+    padding-right: 25px;
+    line-height: 2.2rem;
+  }
+  .faq--active .faq__title {
+    margin-bottom: 15px;
+  }
+  .popup {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .popup__title {
+    font-size: 3rem;
+  }
+  .popup__subtitle {
+    margin-bottom: 15px;
+  }
+  .single-page__title {
+    font-size: 3rem;
+  }
 }

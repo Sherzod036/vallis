@@ -1,6 +1,3 @@
-.page-services {
-}
-
 .service {
   align-items: center;
   margin-bottom: 60px;
@@ -13,6 +10,7 @@
     height: 251px;
     box-shadow: 10px 10px 0px 0px $secondary;
     & img {
+      width: 100%;
       height: 100%;
       object-fit: cover;
     }

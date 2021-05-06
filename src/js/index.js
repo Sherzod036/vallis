@@ -1,4 +1,16 @@
 $(function () {
+  const BODY = $('body')
+  const LOADER = $('.loader')
+  let loading = true
+
+  const w_width = $(window).width()
+
+  if (loading) {
+    BODY.removeClass('body--fixed')
+    LOADER.removeClass('loader--loading')
+    loading = false
+  }
+
   const hamb = $('.hamburger')
   hamb.on('click', () => {
     hamb.toggleClass('is-active')
@@ -33,6 +45,17 @@ $(function () {
     $('.page-partners__tooltip').addClass('page-partners__tooltip--active')
   })
 
+  // FAQ
+  const faq = $('.faq')
+
+  faq.eq(0).addClass('faq--active')
+
+  faq.on('click', function () {
+    faq.removeClass('faq--active')
+    $(this).addClass('faq--active')
+  })
+
+  // WAVIFY
   $('.product-wave').wavify({
     height: 10,
     bones: 3,
@@ -42,11 +65,13 @@ $(function () {
     container: '.product__content'
   })
 
-  $('.footer-wave').wavify({
-    height: 70,
-    bones: 5,
-    amplitude: 30,
-    color: '#18449A',
-    speed: 0.15
-  })
+  if (w_width > 768) {
+    $('.footer-wave').wavify({
+      height: 70,
+      bones: 5,
+      amplitude: 30,
+      color: '#18449A',
+      speed: 0.15
+    })
+  }
 })

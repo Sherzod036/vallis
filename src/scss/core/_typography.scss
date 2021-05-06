@@ -27,9 +27,9 @@
 
 @font-face {
   font-family: 'icomoon';
-  src: url('../fonts/icomoon/icomoon.ttf?b6432g') format('truetype'),
-    url('../fonts/icomoon/icomoon.woff?b6432g') format('woff'),
-    url('../fonts/icomoon/icomoon.svg?b6432g#icomoon') format('svg');
+  src: url('../fonts/icomoon/icomoon.ttf?um855a') format('truetype'),
+    url('../fonts/icomoon/icomoon.woff?um855a') format('woff'),
+    url('../fonts/icomoon/icomoon.svg?um855a#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -48,6 +48,21 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-mail:before {
+  content: '\e909';
+}
+.icon-phone:before {
+  content: '\e90a';
+}
+.icon-marker:before {
+  content: '\e90b';
+}
+.icon-faq:before {
+  content: '\e90c';
+}
+.icon-youtube:before {
+  content: '\e90d';
+}
 .icon-plane:before {
   content: '\e901';
 }
@@ -62,9 +77,6 @@
 }
 .icon-bell:before {
   content: '\e908';
-}
-.icon-youtube:before {
-  content: '\e909';
 }
 .icon-back:before {
   content: '\e904';

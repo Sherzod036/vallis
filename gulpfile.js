@@ -42,8 +42,8 @@ function styles() {
 function bmjs() {
   return src([
     'node_modules/gsap/dist/gsap.js',
-    'node_modules/wavify/wavify.js',
     'node_modules/wavify/jquery.wavify.js',
+    'node_modules/wavify/wavify.js',
     'node_modules/owl.carousel/dist/owl.carousel.js',
   ])
     .pipe(concat('bundle.min.js'))
