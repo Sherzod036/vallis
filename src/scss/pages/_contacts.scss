@@ -1,0 +1,59 @@
+.page-contacts {
+  width: 100%;
+
+  &__map {
+    width: 100%;
+    height: 325px;
+    border: 3px solid #00ade9;
+    border-radius: 2rem;
+    overflow: hidden;
+  }
+  &__sale {
+    display: flex;
+    align-items: center;
+    &-icon {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 75px;
+      height: 75px;
+      flex: 0 0 75px;
+      background: $secondary;
+      border: 2px solid $primary;
+      border-radius: 50%;
+      margin-right: 14px;
+    }
+    &-text {
+      font-weight: 500;
+      font-size: 1.7rem;
+      line-height: 2.2rem;
+    }
+    &-link {
+      color: $secondary;
+      text-decoration: underline;
+      font-size: 1.5rem;
+    }
+  }
+}
+
+.contact {
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+  &:last-child {
+    margin-bottom: 0;
+  }
+  &__icon {
+    display: block;
+    margin-right: 15px;
+  }
+  &__link {
+    font-weight: 500;
+    font-size: 1.8rem;
+    line-height: 2.2rem;
+    transition: 0.3s;
+    &:hover {
+      color: $secondary;
+    }
+  }
+}

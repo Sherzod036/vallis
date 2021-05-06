@@ -7,7 +7,7 @@ $(function () {
 
   const partnersBtns = [
     '<img class="slider_l" src="../img/slider_l.svg" />',
-    '<img class="slider_r" src="../img/slider_r.svg" />',
+    '<img class="slider_r" src="../img/slider_r.svg" />'
   ]
 
   $('.page-partners__slider').owlCarousel({
@@ -17,12 +17,12 @@ $(function () {
     smartSpeed: 800,
     responsive: {
       0: {
-        items: 1,
+        items: 1
       },
       992: {
-        items: 2,
-      },
-    },
+        items: 2
+      }
+    }
   })
 
   const partnersButton = $('.page-partners__button')
@@ -39,7 +39,7 @@ $(function () {
     amplitude: 20,
     color: 'url(#gradient)',
     speed: 0.25,
-    container: '.product__content',
+    container: '.product__content'
   })
 
   $('.footer-wave').wavify({
@@ -47,6 +47,6 @@ $(function () {
     bones: 5,
     amplitude: 30,
     color: '#18449A',
-    speed: 0.15,
+    speed: 0.15
   })
 })

@@ -21,46 +21,47 @@
     border-radius: 10px;
     margin-bottom: 264px;
   }
-  &__popup {
-    position: relative;
-    max-width: 710px;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    margin: 0 auto;
-    padding: 65px 0;
-    border-radius: 10px;
-    &-title {
-      width: 100%;
-      display: inline-block;
-      text-align: center;
-      font-weight: 700;
-      font-size: 3.5rem;
+}
+
+.popup {
+  position: relative;
+  max-width: 710px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin: 0 auto;
+  padding: 65px 0;
+  border-radius: 10px;
+  &__title {
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+    font-weight: 700;
+    font-size: 3.5rem;
+    color: #fff;
+    margin-bottom: 13px;
+  }
+  &__subtitle {
+    text-align: center;
+    color: #fff;
+    margin-bottom: 37px;
+  }
+  &__inner {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  &__button {
+    background: #fff;
+    border-radius: 23px;
+    text-align: center;
+    font-size: 2rem;
+    color: $secondary;
+    padding: 11px 53px;
+    transition: 0.3s;
+    &:hover {
+      background: $primary;
       color: #fff;
-      margin-bottom: 13px;
-    }
-    &-subtitle {
-      text-align: center;
-      color: #fff;
-      margin-bottom: 37px;
-    }
-    &-inner {
-      width: 100%;
-      display: flex;
-      justify-content: center;
-    }
-    &-button {
-      background: #fff;
-      border-radius: 23px;
-      text-align: center;
-      font-size: 2rem;
-      color: $secondary;
-      padding: 11px 53px;
-      transition: 0.3s;
-      &:hover {
-        background: $primary;
-        color: #fff;
-      }
     }
   }
 }
